@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: rgb(51, 50, 50);
+}
+
+main {
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+button {
+    background-color: rgb(0, 183, 255);
+    padding: 20px 40px;
+    color: white;
+}
+
+.boton,
+.imagen1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+h2,
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+span {
+    color: aqua;
+}
+
+.opciones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+
+
+}
+
+.titulo {
+    margin-top: 80px;
+}
+
+.opciones img {
+    width: 300px;
+
+}
+
+.cont {
+    padding: 30px;
+}
+
+.cont :hover {
+    transform: translateY(10px);
+    /* ahorita miramoa */
+}
+
+
+.opciones :hover {
+    background-color: rgba(63, 63, 63, 0.898);
+
+
+
+}
